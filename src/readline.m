@@ -1,7 +1,7 @@
 %---------------------------------------------------------------------------%
 % vim: ft=mercury ts=4 sw=4 et wm=0 tw=0
 %---------------------------------------------------------------------------%
-% Copyright (C) 2024 Julien Fischer.
+% Copyright (C) 2024-2025 Julien Fischer.
 % See the file COPYING for license details.
 %
 % Author: Julien Fischer <juliensf@gmail.com>
@@ -19,7 +19,7 @@
 
     % readline(Line, !IO):
     %
-    % Read Line using readline. If Line is non-empty, it will be added
+    % Read Line using readline. If Line is non-empty, then it will be added
     % to the history.
     %
 :- pred readline(string::out, io::di, io::uo) is det.
