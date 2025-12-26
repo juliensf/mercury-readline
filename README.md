@@ -1,6 +1,6 @@
 # Mercury-Readline
 
-`mercury_readline` is a basic [Mercury](http://www.mercurylang.org) interface 
+`mercury_readline` is a basic [Mercury](https://mercurylang.org) interface
 to the [GNU Readline](https://tiswww.cwru.edu/php/chet/readline/rltop.html)
 library.
 
