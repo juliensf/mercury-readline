@@ -6,8 +6,8 @@ library.
 
 ## License
 
-`mercury_readline` is licensed under a simple 2-clause BSD style license. See the
-file [COPYING](COPYING) for details.
+`mercury_readline` is licensed under a simple 2-clause BSD style license.
+See the file [COPYING](COPYING) for details.
 
 Keep in mind however, that GNU Readline itself is licensed under the
 [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.html).
@@ -19,12 +19,12 @@ which has a less restrictive license.)
 Check the values in the file [Make.options](Make.options) to see if they agree
 with your system, then do:
 
-    $ make install
+    make install
 
 You can also override values in [Make.options](Make.options) on the command
 line, for example
 
-    $ make INSTALL_PREFIX=/foo/bar install
+    make INSTALL_PREFIX=/foo/bar install
 
 causes the library to be installed in the directory `/foo/bar`.
 
